@@ -1,0 +1,44 @@
+HOW TO USE THIS FILE
+====================
+GitHub needs this file to be named exactly  .gitignore  (with the leading dot,
+no .txt). After you upload it to a repo, rename it to:  .gitignore
+
+------------------------------------------------------------------------------
+
+# --- OS noise ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# --- Logs & local env ---
+*.log
+.env
+.env.local
+.netlify/
+
+# --- Build / dependency dirs (if you ever add tooling) ---
+node_modules/
+dist/
+build/
+.cache/
+
+# --- Python (if analysis/ uses notebooks/scripts) ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
